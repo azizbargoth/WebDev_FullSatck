@@ -1,0 +1,63 @@
+
+.work{
+    width: 100%;
+    background-color: #fdfae5;
+    padding:50px 0px;
+}
+.work-container{
+    position: relative;
+    width: 80%;
+    background-color: #fdfae5;
+    margin: auto;
+    padding: 20px 15px;
+    overflow: auto;
+}
+.work-item{
+    position: relative;
+    float: left;
+    padding: 7px 20px;
+    width: 30%;
+    background-color: #fdfae5;
+    margin-bottom: 30px;
+}
+.work-item img{
+    position: relative;
+    /* height: 100%; */
+}
+.work-overlay{
+    position: absolute;
+    top:0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    text-align: center;
+    opacity: 0;
+    background-color: black;
+    z-index: 10;
+    padding-top: 20%;
+    visibility: hidden;
+    /* width: 100%;
+    height: 0; */
+}
+.work-overlay span{
+    font-size: 15px;
+    color: yellow;
+    top:30%
+}
+.work-overlay h3{
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin: 5px;
+}
+.work-overlay a i{
+    color: blue;
+    font-size: 35px;
+}
+.work-item:hover .work-overlay{
+    visibility: visible;
+    width: 100%;
+    height: 100%;
+    opacity: 0.7;
+    transition: 1s;
+}

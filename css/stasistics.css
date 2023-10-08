@@ -1,0 +1,56 @@
+.statistics{
+    position: relative;
+    background-image: url(../img/Sttistics_IMG.jpg);
+    height:350px;
+    width: 100%;
+    background-size: cover;
+    background-attachment: fixed;
+    padding: 70px 0px;
+    background-color: #fdfae5;
+}
+/* .statistics-overlay{
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.76);
+    opacity: 0.5;
+    height: 100%;
+    width: 100%;
+     top: 0;
+    left: 0; 
+} */
+.stastic-conianer{
+    position: relative;
+    overflow:auto;
+    padding-top: 125px;
+    width: 80%;
+    margin: auto;
+}
+.statistics-item{
+    float: left;
+    width: 25%;
+    text-align:center;
+}
+.statistics-item  i{
+    color:rgb(15, 38, 252);
+    font-size: 40px;
+    margin-bottom: 10px;
+}
+.statistics-item h3{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    color: rgb(254, 254, 255);
+}
+.statistics-item span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 15px;
+    color: rgb(255, 255, 255);
+}
+.outhers-img{
+    border-radius: 50%;
+   
+}
+.next-img{
+    background-image: url(../img/كتب-.jpg);
+}
+.tow-img{
+    width: 50%;
+}
